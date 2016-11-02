@@ -17,10 +17,9 @@
 		 
 		 double x1 = ((-(b) + (Math.sqrt( b * b -(4 * a * c)))) / (2 * a));
 		 double x2 = ((-(b) - (Math.sqrt( b * b -(4 * a * c)))) / (2 * a));
-		 System.out.print(" Los valor de x son: " + x1);
-		 System.out.print(" y " + x2);
-		 if (a == 0 ) {
-			 System.out.print(" \n Esta no es una ecuacion de 2º grado");
-		 }
+		 System.out.print("Los valor de x son: ");
+		 System.out.print( x1 );
+		 System.out.print(" y ");
+		 System.out.println( x2 );
 	 }
  }
